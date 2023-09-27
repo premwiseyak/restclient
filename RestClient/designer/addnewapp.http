@@ -1,0 +1,12 @@
+POST {{BASE_URL}}/api/v1/designer/app
+Content-Type: application/json
+Cookie: {{API_COOKIE}}
+
+{
+  "name": "test2",
+  "id": "3d99a6ef-7662-4594-a33a-dd30b4bb0fe1",
+  "defaultUrl": "/test1",
+  "subjectId": "3a4d469f-c1e6-4d21-b46d-0b4fbcd579fd",
+  "moduleIds": []
+}
+
